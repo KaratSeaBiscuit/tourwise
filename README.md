@@ -265,27 +265,26 @@ Validate the finished Skill by:
 通过以下方式验证完成后的 Skill：
 
 1. Running the Skill validator against the `tourwise` folder.
-2. 对 `tourwise` 文件夹运行 Skill validator。
-3. Checking that `SKILL.md` frontmatter contains only `name` and `description`.
-4. 检查 `SKILL.md` frontmatter 只包含 `name` 和 `description`。
-5. Checking that `agents/openai.yaml` matches the Skill behavior and display name.
-6. 检查 `agents/openai.yaml` 与 Skill 行为和展示名一致。
-7. Reviewing references for contradictions, duplicated policy, or missing trigger guidance.
-8. 检查 reference 文件是否存在矛盾、重复策略或缺失触发指引。
-9. Testing a Chinese weekend-trip request.
-10. 测试一个中文周末游请求。
-11. Testing an English family-trip request.
-12. 测试一个英文家庭游请求。
-13. Confirming that missing intake information triggers follow-up questions.
-14. 确认缺失输入信息会触发追问。
-17. Confirming that Google Maps links appear inline beside corresponding items.
-18. 确认 Google Maps 链接嵌在对应项目旁边。
-19. Confirming that output language follows the user's language.
-20. 确认输出语言跟随用户语言。
+1. 对 `tourwise` 文件夹运行 Skill validator。
+2. Checking that `SKILL.md` frontmatter contains only `name` and `description`.
+2. 检查 `SKILL.md` frontmatter 只包含 `name` 和 `description`。
+3. Checking that `agents/openai.yaml` matches the Skill behavior and display name.
+3. 检查 `agents/openai.yaml` 与 Skill 行为和展示名一致。
+4. Reviewing references for contradictions, duplicated policy, or missing trigger guidance.
+4. 检查 reference 文件是否存在矛盾、重复策略或缺失触发指引。
+5. Testing a Chinese weekend-trip request.
+5. 测试一个中文周末游请求。
+6. Testing an English family-trip request.
+6. 测试一个英文家庭游请求。
+7. Confirming that missing intake information triggers follow-up questions.
+7. 确认缺失输入信息会触发追问。
+8. Confirming that Google Maps links appear inline beside corresponding items.
+8. 确认 Google Maps 链接嵌在对应项目旁边。
+9. Confirming that output language follows the user's language.
+9. 确认输出语言跟随用户语言。
 
 ## Open Constraints / 开放约束
 
 The final Skill may require authenticated browsing or user-provided links when content is not publicly accessible. TourWise should handle this transparently rather than pretending access succeeded.
 
 当内容无法公开访问时，最终 Skill 可能需要已登录浏览器或用户提供的链接。TourWise 应透明处理这种情况，而不是假装访问成功。
-
