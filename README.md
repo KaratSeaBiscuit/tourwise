@@ -1,4 +1,4 @@
-# TourWise Design Spec
+# TourWise
 
 ## Goal / 目标
 
@@ -19,7 +19,6 @@ TourWise 将作为独立 GitHub 仓库发布，仓库名为 `tourwise`。
 ```text
 tourwise/
   SKILL.md
-  TourWise-DESIGN-Spec.md
   agents/
     openai.yaml
   references/
