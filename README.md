@@ -21,6 +21,8 @@ tourwise/
   SKILL.md
   agents/
     openai.yaml
+    anthropic.yaml
+    deepseek.yaml
   references/
     trip-intake-checklist.md
     source-and-recency-policy.md
